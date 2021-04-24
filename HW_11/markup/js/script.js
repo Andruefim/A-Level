@@ -38,12 +38,6 @@ var arr = [
     ['arrayRu', 'arrayEn'],
 ]
 
-if (language == "ru") {
-    console.log(String(arr[0][0]));
-} else if (language == "en") {
-    console.log(String(arr[0][1]));
-}
-
       (language == "ru") ? console.log(arr[0][0]): 
       (language == "en") ? console.log(arr[0][1]);
       
